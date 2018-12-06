@@ -1,0 +1,9 @@
+version: '2'
+
+services:
+  apollo-quick-start:
+    image: apollo-quick-start
+    container_name: apollo-quick-start
+    ports:
+      - "8080:8080"
+      - "8070:8070"
